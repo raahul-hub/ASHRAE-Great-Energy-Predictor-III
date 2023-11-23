@@ -1,0 +1,19 @@
+<html>
+<body>
+
+     <h3>ASHRAE ENERGY PREDICTIONS:</h3>
+<h5>Please Provide Query Points in Below Format:</h5>
+<p>Query Point Format - List&nbsp;</p>
+<p><strong>1.query_pt_features =</strong> ['timestamp','building_id', 'meter', 'primary_use', 'square_feet', 'floor_count', 'air_temperature', 'cloud_coverage', 'dew_temperature', 'precip_depth_1_hr', 'sea_level_pressure', 'wind_direction', 'wind_speed'] <br /><br /><br /><br /><strong>2.</strong> <strong>Building Usage- Category to choose from primary_use_list</strong> = ['Retail','Parking','Office','Education','Lodging/residential', 'Entertainment/public assembly', 'Public services', 'Warehouse/storage','Food sales and service', 'Religious worship','Healthcare', 'Utility','Other', 'Technology/science','Manufacturing/industrial','Services']<br /><br /></p>
+
+<div>
+ <form action="/predict" method="POST">
+  <label for="query_pt"><strong>Query Point:</strong><br /></label> 
+   <textarea cols="80" name="query_pt" rows="3"></textarea>
+  <br />
+  <br />
+  <input type="submit" value="Submit" />
+ </form>
+</div>
+</body>
+</html>
