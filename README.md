@@ -33,3 +33,28 @@ Amongst all the models mentioned above, Hyperparameter tuning can be done on the
 Prediction: Target values of the test data will be predicted using the fine-tuned model and will be uploaded to the Kaggle website to get the leader board score.
 del further to improve the performance.
 Prediction: Target values of the test data will be predicted using fine-tuned model and will be uploaded to Kaggle website to get the leader board score.
+
+# Model Used.
+# Baseline Model: Linear Regression
+
+- Simple and interpretable.
+- Good for establishing a baseline performance.
+
+# Instance-based Models: K-NN and SVM with RBF Kernels
+
+- K-NN: Effective for local patterns, sensitive to outliers.
+- SVM with RBF Kernels: Suitable for non-linear patterns, robust against overfitting.
+
+# Decision Tree-based Models: Decision Tree, Random Forest (RF), Gradient Boosting Decision Trees (GBDT), CatBoost, LightGBM
+
+- Decision Tree: Simple, interpretable, prone to overfitting.
+- Random Forest: Ensemble of decision trees, reduces overfitting.
+- GBDT: Boosting method, builds trees sequentially, powerful.
+- CatBoost: Handles categorical features well, efficient.
+- LightGBM: Gradient boosting with a focus on efficiency, good for large datasets.
+
+# Deep Learning Model: Artificial Neural Network (ANN)
+
+- ANNs: Suitable for complex patterns, deep architectures can capture intricate relationships.
+  
+# Custom Stacking Regressor. 
